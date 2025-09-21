@@ -1,0 +1,113 @@
+/* Reset default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #6b11cbd8, #f125fc96);
+  color: white;
+}
+
+/* Navigation Bar */
+nav {
+  background: rgba(0,0,0,0.6);
+  padding: 15px 30px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: rgba(255, 0, 68, 0.278);
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+  max-width: 600px;
+}
+
+.btn {
+  background: rgb(255, 0, 0);
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: orange;
+}
+
+/* About Section */
+.about {
+  background: white;
+  color: black;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
